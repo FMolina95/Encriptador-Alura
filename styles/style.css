@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-primario: #FDFFE2;
+    --color-secundario: #83B4FF;
+    --color-terciario: #5A72A0;
+    --color-hover: #1A2130;
+
+    --fuente-montserrat: "Montserrat", sans-serif;
+    --fuente-krona: "Krona", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: var(--fuente-montserrat);
+    background-color: #F3F5FC;
+}
+
+
+
+textarea{
+    field-sizing: content;
+    resize: none;
+    max-height: 600px;
+    border: none;
+
+}
+
+::placeholder {
+    color: #0A3871;
+    opacity: 1;
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    
+}
+
+
+
+.presentacion_ingreso{
+
+    width: 60%;
+    padding: 2%;
+    background-color: #F3F5FC;
+
+}
+
+.presentacion_ingreso_logo{
+    color: #0A3871;
+}
+
+.presentacion_ingreso_input{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5%;
+    height: 80%;
+    
+}
+
+.presentacion_ingreso_input_texto{
+    width: 100%;
+    color: #0A3871;
+    font-size: 2rem;
+    background-color: #F3F5FC;
+}
+
+.presentacion_ingreso_input_texto_botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 2%;
+}
+
+.presentacion_ingreso_input_boton1{
+    border-radius: 25px;
+    border: none;
+    width: 300px;
+    height: 68px;
+    padding: 10px;
+    background-color: #0A3871;
+    color: #FFFFFF;
+}
+
+.presentacion_ingreso_input_boton2{
+    border-radius: 25px;
+    border: 1px;
+    width: 300px;
+    height: 68px;
+    padding: 10px;
+    color: #0A3871;
+    border-style: solid;
+  border-color: #0A3871;
+}
+
+.presentacion_ingreso_boton{
+    border-radius: 25px;
+    border: 1px;
+    width: 300px;
+    height: 68px;
+    padding: 10px;
+    color: #0A3871;
+    border-style: solid;
+  border-color: #0A3871;
+}
+
+.presentacion_respuesta{
+    width: 40%;
+    background-color: #F3F5FC;
+}
+
+.output{
+    background-color: white;
+
+    margin: 50px;
+    width:80%;
+    height: 80%;
+
+    border-radius: 10PX;
+
+    
+}

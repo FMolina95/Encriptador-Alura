@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+
+
+    <main class="presentacion">
+
+        <section class="presentacion_ingreso">
+            <h1 class="presentacion_ingreso_logo">Encriptador Alura</h1>
+            <section class="presentacion_ingreso_input">
+                <textarea class="presentacion_ingreso_input_texto" id="textoInput" placeholder="Ingrese el texto aqui"></textarea>
+                
+            </section>
+
+            <section class="presentacion_ingreso_input_texto_botones">
+                <button class="presentacion_ingreso_input_boton1" onclick="encriptarTexto()">Encriptar</button>
+                <button class="presentacion_ingreso_input_boton2" onclick="desencriptarTexto()">Desencriptar</button>
+            </section>
+        </section>
+
+            
+        <section class="presentacion_respuesta">
+            <div class="output" id="textoSalida" placeholder="Ningun texto fue encontrado">
+
+            </div>
+            <button class="presentacion_ingreso_boton" onclick="copiarTexto()">Copiar</button>
+        </section>
+        
+    </main>
+
+    <script src="encriptador.js"></script>
+</body>
+</html>
